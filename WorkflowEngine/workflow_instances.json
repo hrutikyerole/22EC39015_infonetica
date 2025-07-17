@@ -1,0 +1,32 @@
+{
+  "1ca02254-fc03-4dac-aaae-9ae4c521c08b": {
+    "Id": "1ca02254-fc03-4dac-aaae-9ae4c521c08b",
+    "DefinitionId": "leave-approval",
+    "CurrentStateId": "approved",
+    "History": [
+      {
+        "ActionId": "",
+        "Timestamp": "0001-01-01T00:00:00"
+      },
+      {
+        "ActionId": "",
+        "Timestamp": "0001-01-01T00:00:00"
+      }
+    ]
+  },
+  "4dac7297-b3f1-4468-9662-38337f168f28": {
+    "Id": "4dac7297-b3f1-4468-9662-38337f168f28",
+    "DefinitionId": "leave-approval",
+    "CurrentStateId": "approved",
+    "History": [
+      {
+        "ActionId": "submit",
+        "Timestamp": "2025-07-17T18:08:23.6621138Z"
+      },
+      {
+        "ActionId": "approve",
+        "Timestamp": "2025-07-17T18:09:13.867238Z"
+      }
+    ]
+  }
+}

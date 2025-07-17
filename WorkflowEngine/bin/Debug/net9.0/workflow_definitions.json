@@ -1,0 +1,64 @@
+{
+  "leave-approval": {
+    "Id": "leave-approval",
+    "States": [
+      {
+        "Id": "start",
+        "Name": "Start",
+        "IsInitial": true,
+        "IsFinal": false,
+        "Enabled": true
+      },
+      {
+        "Id": "manager_approval",
+        "Name": "Manager Approval",
+        "IsInitial": false,
+        "IsFinal": false,
+        "Enabled": true
+      },
+      {
+        "Id": "approved",
+        "Name": "Approved",
+        "IsInitial": false,
+        "IsFinal": true,
+        "Enabled": true
+      },
+      {
+        "Id": "rejected",
+        "Name": "Rejected",
+        "IsInitial": false,
+        "IsFinal": true,
+        "Enabled": true
+      }
+    ],
+    "Actions": [
+      {
+        "Id": "submit",
+        "Name": "Submit Leave",
+        "Enabled": true,
+        "FromStates": [
+          "start"
+        ],
+        "ToState": "manager_approval"
+      },
+      {
+        "Id": "approve",
+        "Name": "Approve Leave",
+        "Enabled": true,
+        "FromStates": [
+          "manager_approval"
+        ],
+        "ToState": "approved"
+      },
+      {
+        "Id": "reject",
+        "Name": "Reject Leave",
+        "Enabled": true,
+        "FromStates": [
+          "manager_approval"
+        ],
+        "ToState": "rejected"
+      }
+    ]
+  }
+}

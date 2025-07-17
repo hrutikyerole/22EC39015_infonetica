@@ -1,0 +1,11 @@
+{
+  "1ca02254-fc03-4dac-aaae-9ae4c521c08b": {
+    "Id": "1ca02254-fc03-4dac-aaae-9ae4c521c08b",
+    "DefinitionId": "leave-approval",
+    "CurrentStateId": "approved",
+    "History": [
+      {},
+      {}
+    ]
+  }
+}
