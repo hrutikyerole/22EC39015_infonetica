@@ -53,8 +53,7 @@ http://localhost:5000
 
 **Body:**
 
- ⁠json
-{
+```{
   "id": "leave-approval",
   "states": [
     { "id": "start", "name": "Start", "isInitial": true, "isFinal": false, "enabled": true },
@@ -86,6 +85,7 @@ http://localhost:5000
     }
   ]
 }
+```
 
 
 ---
