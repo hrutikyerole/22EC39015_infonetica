@@ -1,6 +1,6 @@
 # 22EC39015_infonetica
 
-# 🛠️ Configurable Workflow Engine (State-Machine API)
+# Configurable Workflow Engine (State-Machine API)
 
 This is a minimal backend service built in **.NET 8 / C#** that allows you to:
 
@@ -11,7 +11,7 @@ This is a minimal backend service built in **.NET 8 / C#** that allows you to:
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone the repo
 
@@ -34,7 +34,7 @@ http://localhost:5000
 
 ⁠ ---
 
-## 📦 Features
+## Features
 
 | Area            | Description                                                                                      |
 | --------------- | ------------------------------------------------------------------------------------------------ |
@@ -45,7 +45,7 @@ http://localhost:5000
 
 ---
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### 1. Create a workflow
 
@@ -114,7 +114,7 @@ http://localhost:5000
 
 ---
 
-## 🧠 Example Flow
+## Example Flow
 
 1. Create the `leave-approval` workflow (with actions like `submit`, `approve`, `reject`)
 2. Start an instance → initial state will be `start`
@@ -124,7 +124,7 @@ http://localhost:5000
 
 ---
 
-## 🗃️ File-based Persistence
+## File-based Persistence
 
 * All definitions and instances are automatically saved to:
 
@@ -135,7 +135,7 @@ No database required.
 
 ---
 
-## 📄 Assumptions & Notes
+## Assumptions & Notes
 
 * Only **one initial state** per workflow is allowed.
 * Actions must originate from **enabled** states and go to **enabled** target states.
@@ -145,14 +145,14 @@ No database required.
 
 ---
 
-## 🧪 Testing
+## Testing
 
 Use **Postman** or `curl` to test the endpoints.
 You can also import the [Postman Collection](./postman_collection.json) if provided.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 
 WorkflowEngine/
@@ -164,7 +164,7 @@ WorkflowEngine/
 
 ---
 
-## 🤝 License
+## License
 
 MIT (or as per your submission requirements)
 
