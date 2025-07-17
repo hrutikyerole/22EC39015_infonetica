@@ -154,13 +154,13 @@ You can also import the [Postman Collection](./postman_collection.json) if provi
 
 ## Project Structure
 
-
+```
 WorkflowEngine/
 ├── Models/               # State, Action, WorkflowDefinition, WorkflowInstance, ActionHistory
 ├── Services/             # WorkflowService (business logic)
 ├── Program.cs            # API routes (Minimal API)
 └── README.md
-
+```
 
 ---
 
